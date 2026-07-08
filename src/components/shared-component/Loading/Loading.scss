@@ -1,0 +1,31 @@
+.ant-spin-dot-item {
+  background-color: #6ba425 !important;
+}
+
+.logo-splash {
+    -webkit-animation: blink 1.5s infinite both;
+    animation: blink 1.5s infinite both;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
