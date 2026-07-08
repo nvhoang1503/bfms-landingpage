@@ -83,7 +83,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: tvtien-bfms.do2602.click
+    - host: nvhoang-bfms.do2602.click
       paths:
         - path: /
           # pathType: ImplementationSpecific
